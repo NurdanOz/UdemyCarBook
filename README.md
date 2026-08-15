@@ -20,7 +20,6 @@ Proje; Web API tabanlı backend mimarisi, dinamik frontend entegrasyonu, canlı 
 * 🏗️ [Mimari ve Tasarım Desenleri](#️-mimari-ve-tasarım-desenleri)
 * 📊 [Pivot Table & Canlı İstatistikler (SignalR)](#-pivot-table--canlı-istatistikler-signalr)
 * 🔑 [Güvenlik ve Kimlik Doğrulama (JWT)](#-güvenlik-ve-kimlik-doğrulama-jwt)
-* 🚀 [Kurulum ve Başlangıç](#-kurulum-ve-başlangıç)
 * 🛠️ [Teknoloji Yığını](#️-teknoloji-yığını)
 
 ---
