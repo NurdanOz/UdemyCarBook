@@ -70,22 +70,42 @@ Validation & Utilities: FluentValidation, AutoMapper, Newtonsoft.Json
 Frontend: Bootstrap 5, Razor Views, HTML5, CSS3, JavaScript, jQuery
 
 
+
+
 ### FOTOĞRAFLAR
-<img width="1920" height="1080" alt="carbook1" src="https://github.com/user-attachments/assets/f06d529f-731e-4d92-87cd-48bc35d357ee" />
-<img width="1920" height="1080" alt="caarbook2" src="https://github.com/user-attachments/assets/1b054565-3f7a-4bca-8e80-21ad0a9f0b82" />
-<img width="1920" height="1080" alt="carbook2" src="https://github.com/user-attachments/assets/9a41ba14-9afa-429a-bd34-1c12e6337035" />
-<img width="1920" height="1080" alt="carbook3" src="https://github.com/user-attachments/assets/c87f832f-094b-4744-99b1-5bd8aa7276e0" />
-<img width="1920" height="1080" alt="carbook4" src="https://github.com/user-attachments/assets/2688e864-c98f-4bd1-95cb-3446ae6919de" />
-<img width="1920" height="1080" alt="carbook5" src="https://github.com/user-attachments/assets/42489e13-b49c-47f4-8f92-277209a735a8" />
-<img width="1920" height="1080" alt="carbook6" src="https://github.com/user-attachments/assets/5410f462-2aee-4ee5-9ff9-e3f5b5da4485" />
-<img width="1920" height="1080" alt="carbook7" src="https://github.com/user-attachments/assets/b4babe8b-9921-43e1-9119-7aba1767ac61" />
-<img width="1920" height="1080" alt="carbook8" src="https://github.com/user-attachments/assets/fadd7848-5450-4583-9cb2-40d448fcefe2" />
-<img width="1920" height="1080" alt="carbook9" src="https://github.com/user-attachments/assets/5a8f099e-00de-4a63-87f7-5da13fe53ffd" />
-<img width="1920" height="1080" alt="carbook10" src="https://github.com/user-attachments/assets/d3db07f4-e61e-4351-a01e-ca87830ac65b" />
-<img width="1920" height="1080" alt="carbook11" src="https://github.com/user-attachments/assets/a5321276-57b1-48e7-9348-fb0d25b2dd5f" />
-<img width="1920" height="1080" alt="carbook12" src="https://github.com/user-attachments/assets/b71de014-a626-4134-8864-36b3933ee2a5" />
-<img width="1920" height="1080" alt="carbook13" src="https://github.com/user-attachments/assets/929f7a72-e6aa-4f62-bece-ccca3deffde1" />
-<img width="1920" height="1080" alt="carbook14" src="https://github.com/user-attachments/assets/89d5c34f-9e6c-4cfa-88c9-495cdc4aea8a" />
+
+
+<img width="1920" height="975" alt="carbook1" src="https://github.com/user-attachments/assets/5c8d1063-d192-4b3e-91e7-338ecf8d58e6" />
+
+<img width="1920" height="960" alt="caarbook2" src="https://github.com/user-attachments/assets/207a8ce1-9a9a-451e-a01c-b45ec6242c4e" />
+
+<img width="1920" height="955" alt="carbook2" src="https://github.com/user-attachments/assets/b8813d68-98b5-4ee0-8345-055c4aeb8d2c" />
+
+<img width="1920" height="962" alt="carbook3" src="https://github.com/user-attachments/assets/86b29dba-330e-4e3f-b03d-140fbfa6946a" />
+
+<img width="1920" height="975" alt="carbook4" src="https://github.com/user-attachments/assets/36a658fc-588f-4994-8361-5170059a2f0c" />
+
+<img width="1920" height="967" alt="carbook5" src="https://github.com/user-attachments/assets/a6ac50f8-e562-4368-bb32-919b58b14f58" />
+
+<img width="1920" height="985" alt="carbook6" src="https://github.com/user-attachments/assets/0f245e1d-0eba-497e-96c0-120541cb95db" />
+
+<img width="1920" height="988" alt="carbook7" src="https://github.com/user-attachments/assets/db26577b-593e-4e5d-a45c-7c6a16ff0b2f" />
+
+<img width="1920" height="975" alt="carbook8" src="https://github.com/user-attachments/assets/3d632342-a5b7-4d02-bc80-affb5c21a019" />
+
+<img width="1920" height="985" alt="carbook9" src="https://github.com/user-attachments/assets/bb52e2cc-d1bd-4ecf-b04b-042d6be4eab0" />
+
+<img width="1920" height="975" alt="carbook10" src="https://github.com/user-attachments/assets/80b45c82-7a3c-4fd4-9253-1ef92d3657f0" />
+
+<img width="1920" height="981" alt="carbook11" src="https://github.com/user-attachments/assets/6e9c6ba7-7df8-4495-8059-7b497b4fd4fe" />
+
+<img width="1920" height="975" alt="carbook12" src="https://github.com/user-attachments/assets/5da70a73-5510-4ffd-93ad-0d1ca5936f36" />
+
+<img width="1920" height="979" alt="carbook13" src="https://github.com/user-attachments/assets/6a650af5-31f9-4226-ac19-d0f9f09cea64" />
+
+<img width="1920" height="978" alt="carbook14" src="https://github.com/user-attachments/assets/5491c3ad-7681-408a-97af-2a6b2f6e6913" />
+
+
 
 
 
