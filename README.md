@@ -17,7 +17,7 @@ Proje; Web API tabanlı backend mimarisi, dinamik frontend entegrasyonu, canlı 
 ## 📑 İçindekiler
 
 * 📌 [Öne Çıkan Özellikler](#-öne-çıkan-özellikler)
-* 🏗️ [Mimari ve Tasarım Desenleri](#️-mimari-ve-tasarım-desenleri)
+* 🏗️ [Mimari ve Tasarım Desenleri]
 * 📊 [Pivot Table & Canlı İstatistikler (SignalR)](#-pivot-table--canlı-istatistikler-signalr)
 * 🔑 [Güvenlik ve Kimlik Doğrulama (JWT)](#-güvenlik-ve-kimlik-doğrulama-jwt)
 * 🚀 [Kurulum ve Başlangıç](#-kurulum-ve-başlangıç)
@@ -46,16 +46,6 @@ Proje, katmanlar arası bağımlılıkları en aza indiren ve esnekliği artıra
 * **Mediator Pattern:** `MediatR` kütüphanesi kullanılarak nesneler arasındaki bağımlılıkların azaltılması ve isteklerin merkezi yönetimi.
 * **Repository Pattern:** Veri erişim katmanının soyutlanarak `EF Core` ve `Dapper` ile esnek bir şekilde kullanılması.
 
-## UdemyCarBook/
-├── Core/
-│   ├── UdemyCarBook.Domain/         # Entities ve Veritabanı Modelleri
-│   └── UdemyCarBook.Application/    # CQRS Commands/Queries, MediatR Handlers, DTOs, Interfaces, FluentValidation
-├── Infrastructure/
-│   └── UdemyCarBook.Persistence/    # DbContext, Repository Implementations, Migrations
-├── Presentation/
-│   └── UdemyCarBook.WebApi/         # RESTful API Endpoints, JWT Config, SignalR Hubs
-└── Frontends/
-    └── UdemyCarBook.WebUI/          # ASP.NET Core MVC (Area), ViewComponents, API Consumers
 
 ## 📊 Pivot Table & Canlı İstatistikler (SignalR)
 Pivot Table Yapısı: Araç fiyatlandırmaları ve özellik matrislerinin dinamik olarak raporlanması ve SQL Pivot sorguları ile anlamlandırılması.
