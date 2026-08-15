@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <div class="alert alert-info">Bağlantının Durumu: <strong id="constatus"></strong></div>
+    </div>
+
+    <div class="col-md-8 offset-2">
+        <div class="alert alert-danger">Araba Sayısı: <strong id="carcount"></strong></div>
+    </div>
+</div>
+
+<script src="~/lib/microsoft-signalr/signalr.min.js"></script>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(() => {
+            var connection = new signalR.HubConnectionBuilder()
+                .withUrl("https://localhost:7008/CarHub")
+                .build();
+
+            $("#constatus").text(connection.state);
+
+            // SignalR dinleyicisi
+            connection.on("ReceiveCarCount", (value) => {
+                var data = typeof value === "string" ? JSON.parse(value) : value;
+
+                if (data && typeof data === "object") {
+                    var count = data.carCount ?? (data.result && data.result.carCount) ?? data.result;
+                    $("#carcount").text(count);
+                } else {
+                    $("#carcount").text(data);
+                }
+            });
+
+            // Bağlantıyı başlat
+            connection.start().then(() => {
+                $("#constatus").text(connection.state);
+
+                // İlk veri çekme isteği
+                connection.invoke("SendCarCount");
+
+                // Her 2 saniyede bir (2000 ms) veriyi otomatik yenile
+                setInterval(() => {
+                    connection.invoke("SendCarCount");
+                }, 1000);
+
+            }).catch((err) => {
+                console.log(err);
+            });
+        });
+    </script>
+}

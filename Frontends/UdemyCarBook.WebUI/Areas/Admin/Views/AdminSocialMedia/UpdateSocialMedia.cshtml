@@ -1,0 +1,51 @@
+﻿@model UpdateSocialMediaDto
+
+@{
+    ViewData["Title"] = "UpdateSocialMedia";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title">Sosyal Meyda Verileri Güncelleme</h4>
+                        <p class="card-subtitle mb-4">
+                            Sosyal medya hesaplarınıza ait veri güncellermelerini buradan yapabilirsiniz.
+                            Yeni bir sosyal medya ekleyebilir mevcut sosyal medya hesaplarınızı silebilir ya da düzenleyebilirsiniz.İkonlarla ilgili listeye ikon listesi üzerinden ulaşabilirsiniz.
+                        </p>
+                        <form method="post">
+                            <input type="hidden" asp-for="SocialMediaID" />
+                            <div class="form-group">
+                                <label for="exampleInputSocialMedia">Sosyal Medya Başlığı</label>
+                                <input type="text" class="form-control" id="exampleInputSocialMedia" asp-for="Name" placeholder="Sosyal Medya Başlığını Giriniz">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputUrl">Url</label>
+                                <input type="text" class="form-control" id="exampleInputUrl" asp-for="Url" placeholder="Sosyal Medya Sayfanızı Url Linkini Giriniz">
+
+                            </div><div class="form-group">
+                                <label for="exampleInputIcon">Sosyal Medya İkon</label>
+                                <input type="text" class="form-control" id="exampleInputIcon" asp-for="Icon" placeholder="Hizmet Icon Giriniz">
+                            </div>
+
+
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Sosyal Medya bilgisini Kaydet</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
